@@ -23,9 +23,6 @@ const GREAT_BRITAIN = new SetCountry(
   242495
 );
 
-// console.log(UKRANE.showCoutry());
-// console.log(GREAT_BRITAIN.showCoutry());
-
 function enumerator(obj) {
   for (let key in obj) {
     if (typeof obj[key] !== "function") {
@@ -33,4 +30,3 @@ function enumerator(obj) {
     }
   }
 }
-// enumerator(UKRANE);
