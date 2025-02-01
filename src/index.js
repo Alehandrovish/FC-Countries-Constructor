@@ -15,13 +15,16 @@ function SetCountry(
   };
 }
 
-const UKRANE = new SetCountry("Ukraine", "Kyiv", 40997699, 603700);
-const GREAT_BRITAIN = new SetCountry(
+const ukraine = new SetCountry("Ukraine", "Kyiv", 40997699, 603700);
+const greatBritian = new SetCountry(
   "Great Britain",
   "London",
   67791400,
   242495
 );
+
+console.log(ukraine.showCoutry());
+console.log(greatBritian.showCoutry());
 
 function enumerator(obj) {
   for (let key in obj) {
